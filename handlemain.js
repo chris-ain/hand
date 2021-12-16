@@ -12,6 +12,7 @@ import {menu, trans} from "https://cdn.statically.io/gh/chris-ain/hand/main/menu
 
 
 
+
 window.addEventListener("load", function(event) {
 gsap.registerPlugin(ScrollTrigger);
 gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
@@ -133,6 +134,7 @@ gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
               // gsap.ticker.remove(raf);
               cancelAnimationFrame( id );
               destroyPlane()
+              
             },
           },
           /////////// AGENTUR /////////////////////////
@@ -168,6 +170,7 @@ gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
             beforeLeave(data) {
               setTimeout(function () {
                 destroyPlaneAg()
+                curtainsAg.dispose()
               },1000);
 
             },
@@ -311,6 +314,8 @@ gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
               setTimeout(function () {    
                 destroyPlaneProjDet();
                 destroyPlaneTrans() 
+                plDet.dispose()
+
               },2000);
             },
           },
@@ -443,6 +448,7 @@ gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
               beforeLeave(data) {
                 setTimeout(function () {
                   destroyPlaneP()
+                  curtainsP.dispose();
                   },2000);
            
               },
@@ -642,6 +648,8 @@ gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
   init();
 
   });
+
+
 
 
 
