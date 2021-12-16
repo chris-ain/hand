@@ -11,6 +11,7 @@ import {menu, trans} from "https://cdn.statically.io/gh/chris-ain/hand/main/menu
 
 
 
+
 window.addEventListener("load", function(event) {
 gsap.registerPlugin(ScrollTrigger);
 gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
@@ -309,6 +310,7 @@ gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
 
               setTimeout(function () {    
                 destroyPlaneProjDet();
+                destroyPlaneTrans() 
               },2000);
             },
           },
@@ -351,7 +353,7 @@ gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
 
             },
             afterEnter() {
-                      gsap.to(".page_wrap",{ autoAlpha: 1, duration: 1, delay:.5 });
+              gsap.to(".page_wrap",{ autoAlpha: 1, duration: 1, delay:.5 });
 
   
             },
@@ -430,12 +432,7 @@ gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
                     },2000);
 
                     projfunc(smoothScroll);
-		 const proclick = document.querySelector('canvas')
-                    proclick.addEventListener('click',() => {
-                      smoothScroll.stop();
-                      smoothScroll.destroy();
-             
-                      })
+
                   gsap.to(".page_wrap",{ autoAlpha: 1, duration: 1, delay:.5 });
 
                  
@@ -645,10 +642,6 @@ gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
   init();
 
   });
-
-
-
-
 
 
 
