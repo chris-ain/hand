@@ -12,7 +12,6 @@ import {menu, trans} from "https://cdn.statically.io/gh/chris-ain/hand/main/menu
 
 
 
-
 window.addEventListener("load", function(event) {
 gsap.registerPlugin(ScrollTrigger);
 gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
@@ -315,6 +314,7 @@ gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
                 destroyPlaneProjDet();
                 destroyPlaneTrans() 
                 plDet.dispose()
+                planesTrans.dispose()
 
               },2000);
             },
@@ -648,8 +648,6 @@ gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
   init();
 
   });
-
-
 
 
 
