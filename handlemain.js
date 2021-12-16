@@ -1,13 +1,13 @@
 
-import { chessScene, id } from "./chess.js";
-import { curtainsmain, pl, destroyPlane } from "./curtainsmain.js";
-import { planesTrans, curtainsTransFunc, destroyPlaneTrans  } from "./curtainsTrans.js";
-import { curtainsAg, curtainsgenturfunc, destroyPlaneAg } from "./curtainsagentur.js";
-import { plDet, curtainsProjDet, destroyPlaneProjDet} from "./curtainsdet.js";
-import { curtainsprounder, curtainsproundermain, destroyPlaneproj  } from "./curtainprounder.js";
-import { curtainsP, projfunc, destroyPlaneP } from './projekte.js'
-import {slider1} from "./slider.js"
-import {menu, trans} from "./menu.js"
+import { chessScene, id } from "https://raw.githubusercontent.com/chris-ain/hand/main//chess.js";
+import { curtainsmain, pl, destroyPlane } from "https://raw.githubusercontent.com/chris-ain/hand/main//curtainsmain.js";
+import { planesTrans, curtainsTransFunc, destroyPlaneTrans  } from "https://raw.githubusercontent.com/chris-ain/hand/main//curtainsTrans.js";
+import { curtainsAg, curtainsgenturfunc, destroyPlaneAg } from "https://raw.githubusercontent.com/chris-ain/hand/main//curtainsagentur.js";
+import { plDet, curtainsProjDet, destroyPlaneProjDet} from "https://raw.githubusercontent.com/chris-ain/hand/main//curtainsdet.js";
+import { curtainsprounder, curtainsproundermain, destroyPlaneproj  } from "https://raw.githubusercontent.com/chris-ain/hand/main//curtainprounder.js";
+import { curtainsP, projfunc, destroyPlaneP } from 'https://raw.githubusercontent.com/chris-ain/hand/main//projekte.js'
+import {slider1} from "https://raw.githubusercontent.com/chris-ain/hand/main//slider.js"
+import {menu, trans} from "https://raw.githubusercontent.com/chris-ain/hand/main//menu.js"
 
 
 
