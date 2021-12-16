@@ -438,7 +438,10 @@ gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
               },
     
               beforeLeave(data) {
-            
+                setTimeout(function () {
+                  destroyPlaneP()
+                  },2000);
+           
               },
             },
 
@@ -636,6 +639,10 @@ gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
   init();
 
   });
+
+
+
+
 
 
 
