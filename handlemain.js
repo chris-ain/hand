@@ -1,13 +1,13 @@
 
-import { chessScene, id } from "https://raw.githubusercontent.com/chris-ain/hand/main//chess.js";
-import { curtainsmain, pl, destroyPlane } from "https://raw.githubusercontent.com/chris-ain/hand/main//curtainsmain.js";
-import { planesTrans, curtainsTransFunc, destroyPlaneTrans  } from "https://raw.githubusercontent.com/chris-ain/hand/main//curtainsTrans.js";
-import { curtainsAg, curtainsgenturfunc, destroyPlaneAg } from "https://raw.githubusercontent.com/chris-ain/hand/main//curtainsagentur.js";
-import { plDet, curtainsProjDet, destroyPlaneProjDet} from "https://raw.githubusercontent.com/chris-ain/hand/main//curtainsdet.js";
-import { curtainsprounder, curtainsproundermain, destroyPlaneproj  } from "https://raw.githubusercontent.com/chris-ain/hand/main//curtainprounder.js";
-import { curtainsP, projfunc, destroyPlaneP } from 'https://raw.githubusercontent.com/chris-ain/hand/main//projekte.js'
-import {slider1} from "https://raw.githubusercontent.com/chris-ain/hand/main//slider.js"
-import {menu, trans} from "https://raw.githubusercontent.com/chris-ain/hand/main//menu.js"
+import { chessScene, id } from "https://cdn.statically.io/gh/chris-ain/hand/main/chess.js";
+import { curtainsmain, pl, destroyPlane } from "https://cdn.statically.io/gh/chris-ain/hand/main/curtainsmain.js";
+import { planesTrans, curtainsTransFunc, destroyPlaneTrans  } from "https://cdn.statically.io/gh/chris-ain/hand/main/curtainsTrans.js";
+import { curtainsAg, curtainsgenturfunc, destroyPlaneAg } from "https://cdn.statically.io/gh/chris-ain/hand/main/curtainsagentur.js";
+import { plDet, curtainsProjDet, destroyPlaneProjDet} from "https://cdn.statically.io/gh/chris-ain/hand/main/curtainsdet.js";
+import { curtainsprounder, curtainsproundermain, destroyPlaneproj  } from "https://cdn.statically.io/gh/chris-ain/hand/main/curtainprounder.js";
+import { curtainsP, projfunc, destroyPlaneP } from 'https://cdn.statically.io/gh/chris-ain/hand/main/projekte.js'
+import {slider1} from "https://cdn.statically.io/gh/chris-ain/hand/main/slider.js"
+import {menu, trans} from "https://cdn.statically.io/gh/chris-ain/hand/main/menu.js"
 
 
 
