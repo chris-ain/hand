@@ -358,7 +358,7 @@ gsap.set(".page_wrap",{ autoAlpha: 0, opacity:0  });
 
             },
             afterEnter() {
-              gsap.to(".page_wrap",{ autoAlpha: 1, duration: 1, delay:.5 });
+              gsap.to(".page_wrap",{ opacity: 1, autoAlpha: 1, duration: 1, delay:.5 });
 
   
             },
